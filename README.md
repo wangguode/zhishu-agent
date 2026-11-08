@@ -1,15 +1,15 @@
 <div align="center">
 
-# Coding Agent Harness Patterns
+# Zhishu Agent (知枢智能体) — Harness Patterns
 
-### 从零构建生产级编码智能体：Java 17 (Spring Boot 3) 全栈可视化工作台 + Python 零依赖模式库
+### 从零构建生产级通用智能体与马具工程 (Harness)：Java 17 (Spring Boot 3) 全栈可视化工作台 + Python 零依赖模式库
 
 [![Zhihu](https://img.shields.io/badge/知乎-@王果ai-0084FF?style=flat-square&logo=zhihu)](https://www.zhihu.com/people/wang-guo-ha-53)
 [![Java](https://img.shields.io/badge/Java-17_+_Spring_Boot_3.3-ED8B00?style=flat-square&logo=springboot&logoColor=white)](#-一java-17--spring-boot-3-全栈工作台wg-harness-studio)
 [![Python](https://img.shields.io/badge/Python-3.9+_Zero_Deps-3776AB?style=flat-square&logo=python&logoColor=white)](#-二python-零依赖-8-大模式库与-wg-harness-cli)
 [![MCP](https://img.shields.io/badge/Protocol-MCP_JSON--RPC_2.0-2E5AA8?style=flat-square)](#-核心-harness-模式清单)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](./LICENSE)
-[![Stars](https://img.shields.io/github/stars/wangguode/coding-agent-harness-patterns?style=flat-square)](https://github.com/wangguode/coding-agent-harness-patterns/stargazers)
+[![Stars](https://img.shields.io/github/stars/wangguode/zhishu-agent?style=flat-square)](https://github.com/wangguode/zhishu-agent/stargazers)
 
 **模型决定上限，Harness（马具工程）决定下限。**
 <br>提供 **Java 17 + Spring Boot 3 全栈 Web Studio 工作台** 与 **Python 零依赖 CLI/模式库** 双引擎实现，无需任何 API Key 即可一键跑通 Agent Loop、HITL 人工审批拦截、`/compact` 上下文压缩、MCP JSON-RPC 2.0 沙箱与单测自修复闭环；配置一行环境变量即可无缝切换 DeepSeek / 通义千问。
@@ -66,8 +66,8 @@ Codex、Claude Code、AgentScope 等主流智能体系统的工程代码动辄�
 ### 30 秒跨平台启动 & 桌面端打包（兼容 macOS `.dmg` / Windows `.exe`）
 
 ```bash
-git clone https://github.com/wangguode/coding-agent-harness-patterns.git
-cd coding-agent-harness-patterns
+git clone https://github.com/wangguode/zhishu-agent.git
+cd zhishu-agent
 
 # 方式 A：macOS / Linux 一键启动 Web 工作台（自动编译并打开 http://127.0.0.1:8090）
 ./start-mac-linux.sh
@@ -128,7 +128,7 @@ wg-harness mcp-stdio   # 标准 stdio 模式，可直接配置进 Claude Code / 
 ## 目录结构
 
 ```text
-coding-agent-harness-patterns/
+zhishu-agent/
 ├── java-harness-studio/                            # Java 17 + Spring Boot 3.3 全栈可视化工作台
 │   ├── pom.xml
 │   └── src/main/
