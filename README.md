@@ -159,9 +159,10 @@ zhishu-agent/
 | Agent Skills | [Agent篇(29)：Agent Skills——把企业能力封装成可安装的软件包](https://zhuanlan.zhihu.com/p/2072106765785867888) |
 | 工具调用演进 | [从“能聊”到“能干”：深度拆解 Function Calling、MCP 与 Anthropic Skills](https://zhuanlan.zhihu.com/p/78345307884) |
 
-姐妹仓库：
-- [voice-agent-rtp-gateway](https://github.com/wangguode/voice-agent-rtp-gateway) —— 企业级中文实时语音智能体网关（Java Spring Boot 3 全栈语音控制台 + Python Pipecat 管道 + FreeSWITCH 60ms 毫秒级打断）
-- [AI-Agent-and-Voice-Engineering](https://github.com/wangguode/AI-Agent-and-Voice-Engineering) —— 知乎 @王果ai 100+ 篇体系化长文全景索引与配套代码实验室
+姐妹仓库与在线作品：
+- [HardCall](https://github.com/wangguode/hardcall)（[🌐 在线体验](https://hardcall.153557421.workers.dev)）—— 52ms 毫秒级实时打断 AI 高压语音面试与演说路演模拟器
+- [ai-agent-voice](https://github.com/wangguode/ai-agent-voice) —— 知乎 @王果ai 100+ 篇体系化长文全景索引与配套代码实验室（含 RTP 60ms 语音打断实验室）
+- **voice-agent-rtp-gateway** *(商业核心·私有)* —— 企业级中文实时语音智能体网关（Java Spring Boot 3 全栈语音控制台 + Python Pipecat 管道 + FreeSWITCH 60ms 毫秒级打断）
 
 ---
 

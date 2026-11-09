@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "coding-agent-harness-patterns"
+name = "zhishu-agent"
 version = "0.2.0"
 description = "从零拆解 Codex / Claude Code 式编码智能体：8 个零依赖可运行的 Harness 设计模式与 wg-harness CLI"
 readme = "README.md"

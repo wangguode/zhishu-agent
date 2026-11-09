@@ -45,7 +45,7 @@ def main() -> None:
     root = _repo_root()
 
     if args.cmd == "list":
-        print("🧩 coding-agent-harness-patterns (v0.2.0) 模式清单：")
+        print("🧩 zhishu-agent (v0.2.0) 模式清单：")
         for num, rel, desc in PATTERNS:
             print(f"  [{num}] {desc:44} -> python3 {rel}")
         return

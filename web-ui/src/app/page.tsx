@@ -82,7 +82,7 @@ const SESSIONS_DATA: Record<
 > = {
   "session-limiter": {
     title: "修复高并发限流器边界竞态并补齐单测",
-    workspace: "coding-agent-harness-patterns",
+    workspace: "zhishu-agent",
     turns: [
       {
         id: "turn-1",
@@ -134,7 +134,7 @@ const SESSIONS_DATA: Record<
   },
   "session-mcp": {
     title: "配置 GitHub 与 PostgreSQL MCP 工具链",
-    workspace: "coding-agent-harness-patterns",
+    workspace: "zhishu-agent",
     turns: [
       {
         id: "turn-mcp-1",
@@ -502,7 +502,7 @@ export default function CodexWorkbenchPage() {
       ...prev,
       [id]: {
         title: "新会话 — 代码重构与验证",
-        workspace: "coding-agent-harness-patterns",
+        workspace: "zhishu-agent",
         turns: [],
       },
     }));
@@ -795,7 +795,7 @@ export default function CodexWorkbenchPage() {
                 ) : (
                   <Folder className="w-3.5 h-3.5 text-zinc-400 flex-shrink-0" />
                 )}
-                <span className="truncate">coding-agent-harness-patterns</span>
+                <span className="truncate">zhishu-agent</span>
               </button>
 
               {workspaceExpanded && (
