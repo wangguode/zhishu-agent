@@ -24,7 +24,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./docs/assets/architecture-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./docs/assets/architecture-light.svg">
-    <img alt="Coding Agent Harness Architecture" src="./docs/assets/architecture-light.svg" width="100%">
+    <img alt="Zhishu Agent Harness Architecture" src="./docs/assets/architecture-light.svg" width="100%">
   </picture>
 </p>
 
